@@ -26,12 +26,12 @@ void Worker::server_status_dispatcher()
     settings.beginGroup("CommunityServers");
     foreach (const QString &group, settings.childGroups())
     {
-            settings.beginGroup(group);
-            qDebug()<<"Dispatching: "<<group;
-            QString server_auth_addr = settings.value("ServerIP", "").toString();
-            QString server_name = settings.value("ServerName", "").toString();
-            fetch_server_status(server_auth_addr, server_name);
-            settings.endGroup();
+        settings.beginGroup(group);
+        qDebug()<<"Dispatching: "<<group;
+        QString server_auth_addr = settings.value("ServerIP", "").toString();
+        QString server_name = settings.value("ServerName", "").toString();
+        fetch_server_status(server_auth_addr, server_name);
+        settings.endGroup();
     }
     settings.endGroup();
     settings.beginGroup("LocalServers");
