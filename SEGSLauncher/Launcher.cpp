@@ -235,7 +235,6 @@ void Launcher::handle_releases_reply()
             QByteArray reply = m_releases_network_reply->readAll();
             QJsonDocument jsonResponse = QJsonDocument::fromJson(reply);
             QJsonArray releases_array = jsonResponse.array();
-            //QString version_number = VersionInfo::getAuthVersionNumber();
             QString version_number = "0.6.1";
             version_number.prepend("v");
             qDebug()<<version_number;

@@ -5,7 +5,7 @@ import QtQuick.Dialogs 1.0
 
 import segs.launchersetup 1.0
 
-ApplicationWindow {
+Window {
     id: setup
     visible: true
     modality: Qt.ApplicationModal

@@ -1,0 +1,5 @@
+C:/Code/Segs-Client/build-SEGSLauncher-Qt_5_15_2_in_PATH_msvc2019_64-Debug/CMakeFiles/SEGSLauncher.dir
+C:/Code/Segs-Client/build-SEGSLauncher-Qt_5_15_2_in_PATH_msvc2019_64-Debug/CMakeFiles/edit_cache.dir
+C:/Code/Segs-Client/build-SEGSLauncher-Qt_5_15_2_in_PATH_msvc2019_64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Code/Segs-Client/build-SEGSLauncher-Qt_5_15_2_in_PATH_msvc2019_64-Debug/CMakeFiles/SEGSLauncher_autogen_timestamp_deps.dir
+C:/Code/Segs-Client/build-SEGSLauncher-Qt_5_15_2_in_PATH_msvc2019_64-Debug/CMakeFiles/SEGSLauncher_autogen.dir

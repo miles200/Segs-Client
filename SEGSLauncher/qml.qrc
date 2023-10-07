@@ -5,7 +5,6 @@
         <file>Resources/Icons/app-icon.svg</file>
         <file>Resources/Icons/loader.gif</file>
         <file>main.qml</file>
-        <file>MainWindow.qml</file>
         <file>Setup.qml</file>
         <file>Resources/Images/segs-logo.png</file>
         <file>ServerDialog.qml</file>
@@ -25,5 +24,10 @@
         <file>Resources/Audio/launch.wav</file>
         <file>Resources/Audio/startup.wav</file>
         <file>MediaManager.qml</file>
+        <file>launcher.js</file>
+        <file>MainWindow.qml</file>
+        <file>MainWindowForm.ui.qml</file>
+        <file>MainWindow2.qml</file>
+        <file>MainWindow2Form.ui.qml</file>
     </qresource>
 </RCC>
